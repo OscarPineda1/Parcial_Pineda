@@ -9,4 +9,5 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+    public DbSet<Parcial_Pineda.Models.remesa> DataRemesa { get; set; }
 }
